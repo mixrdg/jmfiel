@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #333;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    background: #636363;
+    color: white;
+    flex-direction:row;
+    width: 75%;
+    height: 245px;
+    margin:auto
+ }
+
+header h1{
+    text-align: center;
+    padding: 100px 60px;
+    font-size: 50px;
+    color: rgb(16, 5, 156);
+    
+}
+
+header img{
+    margin: auto;
+    width: 15%;
+}
+.perfil {
+    text-align: center;
+    padding: 50px 90px;
+    width: 50%;
+    border: solid blue 2px;
+    margin: auto;
+    background-color: #b81b28;
+}
+
+/*.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #474747;
+}*/
+
+.profile h2 {
+    margin-top: 20px auto;
+    color: #b81b28;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    width:85%;
+    margin: auto;
+}
+
+.testimonials h2 {
+    text-align: center;
+    color: #ff5f6d;
+}
+
+.editable-text {
+    max-width: 600px;
+    margin-left: 22%;
+    padding: 20px;
+    background: white;
+    border: 2px solid #ff5f6d;
+    border-radius: 10px;
+    min-height: 150px;
+}
