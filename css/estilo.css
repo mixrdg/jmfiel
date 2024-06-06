@@ -50,6 +50,10 @@ main{
     margin: auto;
 
 }
+
+.audio{
+    display:none;
+}
 li{
     border-radius: 10px;
    margin: 15px 5px ;
@@ -100,10 +104,33 @@ header img{
 .quem img{
     width: 1200px;
 }
+.dizem{
+  
+    margin: 50px auto;
+    width: 60%;
+    color: #ffffffe5;
+    font-size: 55px;
+    text-align: center;
+}
 
 
 
+.criador{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: -8px;
+    text-align: center;
+    height: 50px;
+    background-color: #c92331;
+    width: 100%;
+    
+}
+.dev{
+    width: 500px;
+    text-align: center;
+    margin: auto;
 
+}
 /*.profile-image {
     width: 150px;
     height: 150px;
@@ -155,11 +182,21 @@ header img{
 
 /*comentarios facebook*/
 .fb-comments{
+    width: 42%;
     color: #f8f8f8;
     margin-left: 30%;
     background-color: #ffffff;
 }
 
+.comentario{text-align: center;
+    border-radius: 20px;
+    box-shadow: #fd0000 1px 1px 25px 8px;
+    color: #fdfdfd;
+    background-color: #474646dc;
+    font-size: 50px;
+    margin: 25px auto;
+    width: 60%;
+}
 
 
 
@@ -354,13 +391,14 @@ header img{
         font-size: 20px;
         margin-right: 25px;
     }
-
+    
    .dizem{
     text-align: center;
-   
+    width: 100%;
     margin-top: 80px;
     font-size: 26px;
    }
+
 
     .editable-text {
         width: 90%;
@@ -376,7 +414,7 @@ header img{
         @media(max-width:490px){
     .slider {
        
-        width: 98%;
+        width: 99%;
         height: auto;
     }
 
@@ -399,6 +437,7 @@ header img{
         margin: 0 10px;
     }
 } /*final slid*/
+@media(max-width:490px){
 
     .dev{
         text-align: center;
@@ -407,18 +446,55 @@ header img{
         font-size: 10px;
 
     }
-    h3{
+    .criador{
        
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: -8px;
+        text-align: center;
+        height: 80px;
+        background-color: #c92331;
+        width: 100%;
+    }
+}
+    h3{
+      
         width: 100%;
     }
     .dev a{
-    margin-right: 18px;
+        box-shadow: #0f0f0f 1px 1px 25px 8px;
         text-decoration:  none;
-        font-size: 14px;
+        font-size: 12px;
         width: 100%;
         text-decoration:  none;
     }
+    @media(max-width:490px){
+    .face{
+      
+        background-color: #ffffff;
+    }
 
+    .audio{
+        display: block;
+        text-align: center;
+        margin: auto;
+    
+    }
+    .comentario{
+        padding: 5px;
+        width: 90%;
+        border-radius: 18px;
+        box-shadow: #fd0000 1px 1px 25px 8px;
+        color: #fdfdfd;
+        background-color: #474646dc;
+        font-size: 22px;
+        text-align: center;
+        
+
+    }
+
+}
+    
 
 
 
