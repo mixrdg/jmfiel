@@ -280,6 +280,9 @@ header img{
 #radio4:checked ~ .first{
     margin-left:-75%;
 }
+#radio5:checked ~ .first{
+    margin-left:-100%;
+}
 .navigation-auto div{
     border: 2px solid rgb(65, 65, 243);
     padding: 5px;
@@ -326,11 +329,13 @@ header img{
     }
 
     .im {
-        background-color: #0e0d0dbe;
+        box-shadow: #f00000e8 1px 1px 15px 5px;
+        background-color: #946161d3;
         margin: auto;
-        border:solid rgb(247, 247, 247) 4px;
+        border:solid rgb(3, 3, 3) 4px;
         flex-direction: column;
         width: 95%;
+        height: 150px;
       
     }
 
@@ -347,9 +352,10 @@ header img{
     main {
         
         font-size: 20px;
-        margin-top:-20px;
+        margin-top:-8px;
         width: 100%;
         flex-direction: row;
+        margin-bottom: 50px;
        
     }
     
