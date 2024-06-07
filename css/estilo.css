@@ -51,9 +51,19 @@ main{
 
 }
 
-.audio{
-    display:none;
+.audios{
+    display:block;
 }
+
+.controle{
+   margin:25px auto;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
 li{
     border-radius: 10px;
    margin: 15px 5px ;
@@ -330,9 +340,9 @@ header img{
 
     .im {
         box-shadow: #f00000e8 1px 1px 15px 5px;
-        background-color: #946161d3;
+        background-color: #000000d3;
         margin: auto;
-        border:solid rgb(3, 3, 3) 4px;
+        border:solid rgb(255, 254, 254) 4px;
         flex-direction: column;
         width: 95%;
         height: 150px;
@@ -355,7 +365,7 @@ header img{
         margin-top:-8px;
         width: 100%;
         flex-direction: row;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
        
     }
     
@@ -368,6 +378,7 @@ header img{
     }
     
     a {
+        text-decoration: none;
         padding: 10px;
         width: 100%;
     }
@@ -480,7 +491,7 @@ header img{
         background-color: #ffffff;
     }
 
-    .audio{
+    .audios{
         display: block;
         text-align: center;
         margin: auto;
@@ -497,6 +508,13 @@ header img{
         text-align: center;
         
 
+    }
+    .controle{
+        width: 100%;
+    }
+    .controle button{
+        padding: 9px;
+        width: 70px;
     }
 
 }

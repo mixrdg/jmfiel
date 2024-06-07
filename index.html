@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jmfiel7</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <Script>
+    function playAudio() {
+        let x = document.getElementById("audio");
+        x.play();
+    }
+    function pauseAudio() {
+        let x = document.getElementById("audio");
+        x.pause();
+    }       </Script>
 </head>
     <body>
         <div class="back">
@@ -36,10 +45,15 @@
             </div>
         </main>
          <!---audio-->
-        <div class="audio">
-            <audio controls autoplay  >
-                <source src="musica/musica jm,.mp3" >
+        <div class="audios" >
+            <audio   id="audio">
+                <source src="musica/musica jm,.mp3" type="" >
             </audio>
+        <div class="controle">
+            
+                        <button onclick="playAudio()">Play</button>
+                        <button onclick="pauseAudio()">Pause</button>
+        </div>
             <!----fim audio-->
         </div>
         <section class="perfil">  <!--onde está escrito o que é-->
