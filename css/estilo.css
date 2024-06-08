@@ -48,7 +48,8 @@ main{
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 50px auto;
+    margin: auto;
+    margin-top: 50px;
 
 }
 
