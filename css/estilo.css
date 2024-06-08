@@ -32,6 +32,7 @@ header h1 {
 }
 
 .imm{
+    
     width: 80% ;
 }
 
@@ -41,13 +42,13 @@ header h1 {
 
 /*menu*/
 main{
- 
+   
     width: 90%;
     padding: 2px;
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 50px auto;
 
 }
 
@@ -82,6 +83,7 @@ li :hover{
 }
 
 a{
+   
     width:30px;
     border-radius: 20px;
     background-color: #f8f8f8
@@ -206,6 +208,9 @@ header img{
     font-size: 50px;
     margin: 25px auto;
     width: 60%;
+}
+.dev a{
+    font-size: 20px;
 }
 
 
@@ -478,13 +483,15 @@ header img{
       
         width: 100%;
     }
+    @media (max-width: 490px){
     .dev a{
         box-shadow: #0f0f0f 1px 1px 25px 8px;
         text-decoration:  none;
-        font-size: 12px;
+        font-size: 13px;
         width: 100%;
         text-decoration:  none;
     }
+}
     @media(max-width:490px){
     .face{
       
